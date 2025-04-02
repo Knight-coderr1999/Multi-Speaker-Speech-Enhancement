@@ -100,10 +100,10 @@ CombinedModel(
 | ID Accuracy | 72% | **89%** (↑24%) |
 
 ### Speech Enhancement (Test Set)
-| Model | SDR ↑ | SAR ↑ | PESQ ↑ |
-|-------|-------|-------|--------|
-| SepFormer | 12.8 | 14.2 | 3.1 |
-| Enhanced Pipeline | **14.1** | **15.8** | **3.4** |
+| Model | SDR ↑ | SAR ↑ | PESQ ↑ | SIR ↑ |
+|-------|-------|-------|--------|--------|
+| SepFormer | 12.8 | 14.2 | 3.1 | 14.2 |
+| Enhanced Pipeline | **14.1** | **15.8** | **3.4** | **15.1** |
 
 ### Rank 1 Identification Accuracy (Test Set)
 | Model | Pretrained ↑ | Peft Finetuned ↑ |
