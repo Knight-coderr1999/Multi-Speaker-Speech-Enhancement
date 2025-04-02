@@ -105,6 +105,12 @@ CombinedModel(
 | SepFormer | 12.8 | 14.2 | 3.1 |
 | Enhanced Pipeline | **14.1** | **15.8** | **3.4** |
 
+### Rank 1 Identification Accuracy (Test Set)
+| Model | Pretrained ↑ | Peft Finetuned ↑ |
+|-------|-------|-------|--------|
+| SepFormer | 72.5 | 80.2 |
+| Enhanced Pipeline | **75.2** | **85.8** |
+
 ### Key Findings:
 1. **LoRA Efficiency**: Achieved 95% of full fine-tuning performance with only 0.08% trainable parameters.
 2. **Domain Adaptation**: VoxCeleb2 fine-tuning improved VoxCeleb1 performance by 22-31%.
