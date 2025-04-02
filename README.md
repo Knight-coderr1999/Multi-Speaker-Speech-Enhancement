@@ -107,7 +107,7 @@ CombinedModel(
 
 ### Rank 1 Identification Accuracy (Test Set)
 | Model | Pretrained ↑ | Peft Finetuned ↑ |
-|-------|-------|-------|--------|
+|-------|-------|-------|
 | SepFormer | 72.5 | 80.2 |
 | Enhanced Pipeline | **75.2** | **85.8** |
 
