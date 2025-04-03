@@ -119,19 +119,6 @@ CombinedModel(
 
 ---
 
-## 🛑 Challenges & Solutions
-
-**Challenge 1**: Speaker confusion in high-pitch overlaps  
-**Solution**: Implemented pitch-aware data augmentation
-
-**Challenge 2**: Artifacts in SepFormer outputs  
-**Solution**: Added post-processing with Wiener filter
-
-**Challenge 3**: Language variance in MFCC features  
-**Solution**: Implemented per-language normalization
-
----
-
 ## 📚 References
 1. VoxCeleb Datasets - https://drive.google.com/drive/folders/1qypIUgCoPfp5mCqPCbBobnw9hJKlW1Xm?usp=sharing
 2. WavLM Architecture - https://huggingface.co/docs/transformers/en/model_doc/wavlm
