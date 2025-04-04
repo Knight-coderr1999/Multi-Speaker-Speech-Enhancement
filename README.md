@@ -2,7 +2,7 @@
 
 # Speech Enhancement & Speaker Identification Pipeline
 
-## 📂 Repository Overview
+## Repository Overview
 This repository contains an end-to-end pipeline for multi-speaker speech enhancement and speaker identification, featuring:
 - Fine-tuning of pre-trained speaker verification models with **LoRA**
 - Multi-speaker scenario synthesis
@@ -11,7 +11,7 @@ This repository contains an end-to-end pipeline for multi-speaker speech enhance
 
 ---
 
-## 🛠️ Architecture Diagram
+## Architecture Diagram
 ```mermaid
 graph TD
 A[Multi-Speaker Audio] -->|Input| B[SepFormer Model]
@@ -23,15 +23,15 @@ E -->|Identified Speakers| F[Final Output]
 ```
 ---
 
-## 🔍 Key Components
+## Key Components
 
-### 📊 Datasets
+### Datasets
 | Dataset | Content | Usage |
 |---------|---------|-------|
 | VoxCeleb1 | 1,251 speakers, 150k+ utterances | Evaluation trials |
 | VoxCeleb2 | 6,112 speakers, 1M+ utterances | Fine-tuning (First 100 IDs) |
 
-### 🧠 Models
+### Models
 ```json
 {
   "Base Model": "microsoft/wavlm-large",
@@ -43,7 +43,7 @@ E -->|Identified Speakers| F[Final Output]
 
 ---
 
-## 🚀 Implementation Workflow
+## Implementation Workflow
 
 ### 1. Fine-Tuning Process
 **Hardware**: CPU (125GB RAM)  
@@ -90,7 +90,7 @@ CombinedModel(
 
 ---
 
-## 📈 Results & Observations
+## Results & Observations
 
 ### Speaker Verification (VoxCeleb1 Test)
 | Metric | Pre-trained | Fine-tuned |
@@ -119,7 +119,7 @@ CombinedModel(
 
 ---
 
-## 📚 References
+## References
 1. VoxCeleb Datasets - https://drive.google.com/drive/folders/1qypIUgCoPfp5mCqPCbBobnw9hJKlW1Xm?usp=sharing
 2. WavLM Architecture - https://huggingface.co/docs/transformers/en/model_doc/wavlm
 3. LoRA Adaptation - https://huggingface.co/docs/diffusers/main/en/training/lora
